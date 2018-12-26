@@ -7,10 +7,12 @@ As an example, you could download the jar file target/util.1.0.0.jar and execute
 	java -cp ./util-1.0.0.jar top.sde.util.Example
 
 The output will be like:
-	Please input a line to find the max length word or Enter/Return to quit:	something you input here
+	Please input a line to find the max length word or Enter/Return to quit:
+	something you input here
 	RetWnL [length=9, word=something]
 
 The API definition is:
+```
 	/**
 	 * Find the max length word of input line(s). 
 	 * Any continues non-word characters make the word splitters.
@@ -21,4 +23,4 @@ The API definition is:
 	 */
 	public static RetWnL matchLine(String lines) {
 ...
-
+```
