@@ -1,6 +1,10 @@
 This is a JAVA API developed to find maximum length of a word in a sentence.
 You could call:
 ```
+	import top.sde.util.MaxLenWord;
+	import top.sde.util.RetWnL;
+	
+	
 	MaxLenWord.matchLine(line).getWord() to retrive the word.
 	MaxLenWord.matchLine(line).getLength() to get the length of the word.
 ```
