@@ -3,7 +3,7 @@ You could call:
 	MaxLenWord.matchLine(line).getWord() to retrive the word.
 	MaxLenWord.matchLine(line).getLength() to get the length of the word.
 
-As an example, you could download the jar file util.1.0.0.jar and execute bellow commands in your terminal window to make a simple test:
+As an example, you could download the jar file target/util.1.0.0.jar and execute bellow commands in your terminal window to make a simple test:
 	java -cp ./util-1.0.0.jar top.sde.util.Example
 
 The output will be like:
